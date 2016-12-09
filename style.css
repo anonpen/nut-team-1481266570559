@@ -2,49 +2,49 @@
  * This file provides css styles.
  */
 
+
 @charset "UTF-8";
 
 h1 {
-  color: #333;
-  font-family: Arial;
-  text-align: center;
-}
-
-ul {
-  background-color: #EEE;
-  border: 1px solid #CCC;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-  width: 600px;
-}
-
-li {
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  margin: 0 auto;
-  text-align: center;
-  vertical-align: bottom;
-}
-
-li:nth-child(odd) {
-  color: #666;
-  font-family: "Arial Black";
+  font-family: serif;
   font-size: 20px;
-  width: 40px;
+  margin-top: 30px;
+  text-align: center;
 }
 
-li:nth-child(even) {
-  border-right: 1px solid #999;
-  color: #666;
-  font-family: Arial;
-  font-size: 20px;
-  margin-right: 15px;
+.bar {
+  height: 30px;
+  margin: 20px auto;
+  position: relative;
+  width: 150px;
+}
+
+.bar_over,
+.bar_under {
+  height: 30px;
+  margin: 0;
+  position: absolute;
+}
+
+.bar_under {
+  background: linear-gradient(#333, #000);
+  background: -webkit-linear-gradient(#333, #000);
+  background: -moz-linear-gradient(#333, #000);
+  background: -o-linear-gradient(#333, #000);
+  background: -ms-linear-gradient(#333, #000);
+  width: 100%;
+}
+
+.bar_over {
+  background: linear-gradient(#0C0, #090);
+  background: -webkit-linear-gradient(#0C0, #090);
+  background: -moz-linear-gradient(#0C0, #090);
+  background: -o-linear-gradient(#0C0, #090);
+  background: -ms-linear-gradient(#0C0, #090);
   
-padding-right
+width
 : 
-15px
+90%
 ;
+  z-index: 2;
 }
