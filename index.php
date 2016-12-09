@@ -5,17 +5,12 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-<?PHP
-    <h1>Registration Form</h1>
-      ?><?PHP
-    <ul>
-      <li>1</li>
-      <li>Register</li>
-      <li>2</li>
-      <li>Confirm</li>
-      <li>3</li>
-      <li>Complete!</li>
-    </ul>
-?>
+
+    <h1>HTML+CSS Graph</h1>
+    <div class="bar">
+      <p class="bar_over"></p>
+      <p class="bar_under"></p>
+    </div>
+
   </body>
 </html>
