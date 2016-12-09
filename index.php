@@ -7,6 +7,7 @@
   <body>
 <?PHP
     <h1>Registration Form</h1>
+      ?><?PHP
     <ul>
       <li>1</li>
       <li>Register</li>
