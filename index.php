@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-
+<?PHP
     <h1>Registration Form</h1>
     <ul>
       <li>1</li>
@@ -15,6 +15,6 @@
       <li>3</li>
       <li>Complete!</li>
     </ul>
-
+?>
   </body>
 </html>
