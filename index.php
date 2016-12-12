@@ -18,9 +18,7 @@
 
 echo "Hello PHP!";　
 
-$link = mysql_connect('us-cdbr-iron-east-04.cleardb.net:3306', 'b56f633bf4a00f', 
-
-'079a2d1a');
+$link = mysql_connect('us-cdbr-iron-east-04.cleardb.net:3306', 'b56f633bf4a00f', '079a2d1a');
 if (!$link) {
     die('接続失敗です。'.mysql_error());
 }
