@@ -15,7 +15,7 @@
 
 <?php
 
-echo "Hello PHP!";　
+echo '<p>Hello PHP!</p>';　
 
 
 ?>
