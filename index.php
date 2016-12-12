@@ -11,8 +11,7 @@
       <p class="bar_over"></p>
       <p class="bar_under"></p>
     </div>
-  </body>
-</html>
+
 
 <?php
 
@@ -34,3 +33,6 @@ if ($close_flag){
 }
 
 ?>
+
+      </body>
+</html>
