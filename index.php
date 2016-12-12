@@ -4,13 +4,14 @@
     <title>HTML+CSS</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+/*  <body>
 
     <h1>HTML+CSS Graph</h1>
     <div class="bar">
       <p class="bar_over"></p>
       <p class="bar_under"></p>
     </div>
+  */
 <?php
 
 $link = mysql_connect('us-cdbr-iron-east-04.cleardb.net:3306', 'b56f633bf4a00f', 
